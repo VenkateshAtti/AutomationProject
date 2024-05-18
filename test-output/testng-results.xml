@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Checked Stock Availability]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Placed the Order]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-18T18:13:27 IST" name="Suite" finished-at="2024-05-18T18:13:58 IST" duration-ms="30962">
+    <groups>
+    </groups>
+    <test started-at="2024-05-18T18:13:27 IST" name="Test" finished-at="2024-05-18T18:13:58 IST" duration-ms="30962">
+      <class name="Scenario2.ChromeTestableScenario2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Scenario2.ChromeTestableScenario2@6b81ce95]" started-at="2024-05-18T18:13:27 IST" name="beforeTest" finished-at="2024-05-18T18:13:33 IST" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="action()[pri:0, instance:Scenario2.ChromeTestableScenario2@6b81ce95]" started-at="2024-05-18T18:13:45 IST" name="action" finished-at="2024-05-18T18:13:58 IST" duration-ms="13424" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Checked Stock Availability]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Placed the Order]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- action -->
+      </class> <!-- Scenario2.ChromeTestableScenario2 -->
+      <class name="Scenario2.EdgeDriverTestableScenario2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Scenario2.EdgeDriverTestableScenario2@dd8ba08]" started-at="2024-05-18T18:13:33 IST" name="beforeTest" finished-at="2024-05-18T18:13:45 IST" duration-ms="11777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="action()[pri:0, instance:Scenario2.EdgeDriverTestableScenario2@dd8ba08]" started-at="2024-05-18T18:13:45 IST" name="action" finished-at="2024-05-18T18:13:58 IST" duration-ms="12827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- action -->
+      </class> <!-- Scenario2.EdgeDriverTestableScenario2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
